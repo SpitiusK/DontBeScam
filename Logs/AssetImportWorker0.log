@@ -1,0 +1,814 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.0f1 (9ea152932a88) revision 10395986'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16220 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-05-30T18:03:32Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.1.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51491
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/user/My project
+C:/Users/user/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16336]  Target information:
+
+Player connection [16336]  * "[IP] 192.168.1.251 [Port] 0 [Flags] 2 [Guid] 597295990 [EditorId] 597295990 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16336]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 597295990 [EditorId] 597295990 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16336] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16336] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.0f1 (9ea152932a88)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:          NVIDIA
+    VRAM:            5966 MB
+    App VRAM Budget: 5198 MB
+    Driver:          32.0.15.7270
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002766 seconds.
+- Loaded All Assemblies, in  0.699 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.617 seconds
+Domain Reload Profiling: 1315ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (289ms)
+				TypeCache.ScanAssembly (266ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (618ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (535ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (104ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.361 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.316 seconds
+Domain Reload Profiling: 2675ms
+	BeginReloadAssembly (285ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (919ms)
+		LoadAssemblies (589ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (492ms)
+			TypeCache.Refresh (363ms)
+				TypeCache.ScanAssembly (335ms)
+			BuildScriptInfoCaches (102ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1317ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1075ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (667ms)
+			ProcessInitializeOnLoadMethodAttributes (190ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6666 unused Assets / (6.4 MB). Loaded Objects now: 7348.
+Memory consumption went from 177.9 MB to 171.4 MB.
+Total: 16.674600 ms (FindLiveObjects: 1.125700 ms CreateObjectMapping: 0.942900 ms MarkObjects: 9.400400 ms  DeleteObjects: 5.204400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 107610.985820 seconds.
+  path: Assets/Profabs
+  artifactKey: Guid(3546b87f9f3dde3448af2d37dde85422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs using Guid(3546b87f9f3dde3448af2d37dde85422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd7c76eceab95884bf44080f0888cf85') in 0.0114192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.607058 seconds.
+  path: Assets/Profabs/ChoiceButtonFirst.prefab
+  artifactKey: Guid(87857f389ab2337499501aa678ea5eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonFirst.prefab using Guid(87857f389ab2337499501aa678ea5eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4de8b4cc42ca84dcb1ab72a7dfee6fb2') in 0.1138064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.421870 seconds.
+  path: Assets/Profabs/ChoiceButtonFirst 1.prefab
+  artifactKey: Guid(f09ee88de73d6f84598c57eba623c0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonFirst 1.prefab using Guid(f09ee88de73d6f84598c57eba623c0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'babef9a95a07ee89b02cc610021fcf06') in 0.0278954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 1990.069303 seconds.
+  path: Assets/Profabs/NewChoiceButton.prefab
+  artifactKey: Guid(87857f389ab2337499501aa678ea5eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/NewChoiceButton.prefab using Guid(87857f389ab2337499501aa678ea5eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8d180cfbf01cb5464b9a13507eba2f7') in 0.031888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.561710 seconds.
+  path: Assets/Profabs/NewChoiceButton.prefab
+  artifactKey: Guid(87857f389ab2337499501aa678ea5eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/NewChoiceButton.prefab using Guid(87857f389ab2337499501aa678ea5eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4b2f0fbce8de9d855eba3c35f70f0ae') in 0.0263935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.572908 seconds.
+  path: Assets/Profabs/NewChoiceButton.prefab
+  artifactKey: Guid(87857f389ab2337499501aa678ea5eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/NewChoiceButton.prefab using Guid(87857f389ab2337499501aa678ea5eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9e82f8e2cef07f9de77ad548ed57bc9') in 0.026358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 5115.387747 seconds.
+  path: Assets/Profabs/ChoiceButtonSecond.prefab
+  artifactKey: Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonSecond.prefab using Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28cce103729abcf9da606acec015b5fa') in 0.0975113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.698488 seconds.
+  path: Assets/Profabs/ChoiceButtonPrefab.prefab
+  artifactKey: Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonPrefab.prefab using Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc7f8b9777e1962abd9b6a230588404b') in 0.0300577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.702161 seconds.
+  path: Assets/Profabs/ChoiceButtonPrefab.prefab
+  artifactKey: Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonPrefab.prefab using Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ab776a187bdf654096191a18254b18c') in 0.0506125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.530672 seconds.
+  path: Assets/Profabs/ChoiceButtonPrefab.prefab
+  artifactKey: Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonPrefab.prefab using Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ac2cefa6a24e799f4d4bb428e96d61c') in 0.0334297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.376566 seconds.
+  path: Assets/Profabs/ChoiceButtonPrefab.prefab
+  artifactKey: Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonPrefab.prefab using Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e091558f2fdedcdc1cbcf88d3179647') in 0.0296663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.453661 seconds.
+  path: Assets/Profabs/ChoiceButtonPrefab.prefab
+  artifactKey: Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonPrefab.prefab using Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cb4e55976e99c2c9d7b234e657d8a51') in 0.0305376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.948283 seconds.
+  path: Assets/Profabs/ChoiceButtonPrefab.prefab
+  artifactKey: Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonPrefab.prefab using Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3f523af68472c5f8cea0c5b8fc86d76') in 0.0280908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.582761 seconds.
+  path: Assets/Profabs/ChoiceButtonPrefab.prefab
+  artifactKey: Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonPrefab.prefab using Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9e029026cb65f4d053324039a12db80') in 0.0281849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.911662 seconds.
+  path: Assets/Profabs/ChoiceButtonPrefab.prefab
+  artifactKey: Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonPrefab.prefab using Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72bb19c93702ac9af43acde095c5d396') in 0.0345547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.923952 seconds.
+  path: Assets/Profabs/ChoiceButtonPrefab.prefab
+  artifactKey: Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButtonPrefab.prefab using Guid(2b69867ff923c1f4ca469ab24de54bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '484466088999a67f1ed7264a971326fb') in 0.0463562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 301.738405 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '013afcbde498361b7e2ea32755e1ccc7') in 0.0321753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 1388.773411 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b9634e513845d3ea8bba736d01af650') in 0.0401888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.744644 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9f82c2693f8d60dad303c8191e105b6') in 0.031006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.364196 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3555472571eba4eb4ec1323c487070b') in 0.0332155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 357.849817 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8daf0175a923ca3f33320bd379414dc') in 0.0407865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.635626 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fcfe0ea4674c6c8f1ec6d19c7bd9508') in 0.0280082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.346301 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c552196e31b3cf3e98f81c6dc8657a28') in 0.0265529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.771107 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93bdd256e3533201522e7dfbce02629f') in 0.0285191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.547144 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f86996614a01425aad762e2a40e8c471') in 0.0279397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.538004 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30f920c115dcb4c697a92f7a27aa45e4') in 0.0268065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.577771 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aeec6eb0c592541e707c9029f9668a5') in 0.0303906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.998983 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5107bd4485574caafe5eab4dbe6e8ea0') in 0.0288563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.596231 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b0bfa97431b85310113d4cd5e67f597') in 0.0293442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.545396 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '187dadb73ef20c1186c01fc109698aa5') in 0.0312671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.569742 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06d5a64a482220d50096fe704e384d43') in 0.0305163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 1463.510876 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3daec1a6eebd3efe81f9d6089ae1c39e') in 0.0304778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.619576 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '252a7fa2acde5eed0ef2102af1199809') in 0.0438541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.566647 seconds.
+  path: Assets/Profabs/ChoiceButton.prefab
+  artifactKey: Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/ChoiceButton.prefab using Guid(6ace03e154260164e8e41048495c04d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '948189d2922fcf9709b1ca35a3e2c41b') in 0.0265991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.653 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.477 seconds
+Domain Reload Profiling: 3135ms
+	BeginReloadAssembly (618ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (98ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (167ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (894ms)
+		LoadAssemblies (710ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (404ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (354ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1069ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (243ms)
+			ProcessInitializeOnLoadAttributes (674ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6664 unused Assets / (6.7 MB). Loaded Objects now: 7354.
+Memory consumption went from 150.8 MB to 144.1 MB.
+Total: 19.589700 ms (FindLiveObjects: 1.323200 ms CreateObjectMapping: 1.097900 ms MarkObjects: 11.490900 ms  DeleteObjects: 5.675600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.235 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.387 seconds
+Domain Reload Profiling: 2626ms
+	BeginReloadAssembly (347ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (752ms)
+		LoadAssemblies (532ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (384ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (338ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1388ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1001ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (651ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6664 unused Assets / (6.5 MB). Loaded Objects now: 7356.
+Memory consumption went from 152.7 MB to 146.2 MB.
+Total: 19.096500 ms (FindLiveObjects: 1.219300 ms CreateObjectMapping: 0.930800 ms MarkObjects: 10.982200 ms  DeleteObjects: 5.961900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6653 unused Assets / (6.7 MB). Loaded Objects now: 7356.
+Memory consumption went from 154.7 MB to 148.0 MB.
+Total: 91.966700 ms (FindLiveObjects: 1.806900 ms CreateObjectMapping: 2.340800 ms MarkObjects: 80.502200 ms  DeleteObjects: 7.314500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6653 unused Assets / (7.1 MB). Loaded Objects now: 7356.
+Memory consumption went from 156.6 MB to 149.4 MB.
+Total: 37.726000 ms (FindLiveObjects: 1.206600 ms CreateObjectMapping: 0.955800 ms MarkObjects: 27.106700 ms  DeleteObjects: 8.454500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.772 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.457 seconds
+Domain Reload Profiling: 3233ms
+	BeginReloadAssembly (568ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (57ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (200ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (1041ms)
+		LoadAssemblies (810ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (452ms)
+			TypeCache.Refresh (37ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (383ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1458ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1057ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (223ms)
+			ProcessInitializeOnLoadAttributes (684ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6664 unused Assets / (6.5 MB). Loaded Objects now: 7358.
+Memory consumption went from 158.3 MB to 151.8 MB.
+Total: 17.718100 ms (FindLiveObjects: 1.253100 ms CreateObjectMapping: 1.110000 ms MarkObjects: 9.707100 ms  DeleteObjects: 5.646600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4749.816736 seconds.
+  path: Assets/Nodes/StartNode/SecondChoice.asset
+  artifactKey: Guid(fcc19f728f769314d99aba3d50057f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nodes/StartNode/SecondChoice.asset using Guid(fcc19f728f769314d99aba3d50057f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e7f7ed3e54495fbc3e6b4714fe1a642') in 0.0713153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.368567 seconds.
+  path: Assets/Nodes/RightNode/RightNode.asset
+  artifactKey: Guid(8306a6fade35e094f89268e62b172bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nodes/RightNode/RightNode.asset using Guid(8306a6fade35e094f89268e62b172bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '263800a6cb51f1385049808c7fdc5936') in 0.005615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.710874 seconds.
+  path: Assets/GameData/Nodes/TestNode.asset
+  artifactKey: Guid(09ebbcb029bbb0046aa2b988479360c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Nodes/TestNode.asset using Guid(09ebbcb029bbb0046aa2b988479360c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4150d0a833738d1b8ad8b94c385ef4ba') in 0.0057292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.233530 seconds.
+  path: Assets/Nodes/RightNode/FirstChoice.asset
+  artifactKey: Guid(fe2c60cc550d3d048996b19aad06b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nodes/RightNode/FirstChoice.asset using Guid(fe2c60cc550d3d048996b19aad06b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f6929c63c86f79e47b15bf9e6acd4e4') in 0.0057943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.272 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.405 seconds
+Domain Reload Profiling: 2681ms
+	BeginReloadAssembly (363ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (767ms)
+		LoadAssemblies (558ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (382ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (337ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1406ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1019ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (215ms)
+			ProcessInitializeOnLoadAttributes (656ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6664 unused Assets / (6.5 MB). Loaded Objects now: 7360.
+Memory consumption went from 151.0 MB to 144.4 MB.
+Total: 19.930900 ms (FindLiveObjects: 1.405200 ms CreateObjectMapping: 1.255500 ms MarkObjects: 10.869300 ms  DeleteObjects: 6.398800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 372.930369 seconds.
+  path: Assets/GameData/Nodes/RifhtOrLeft.asset
+  artifactKey: Guid(c04b2676d921798438a002a44a54ad45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Nodes/RifhtOrLeft.asset using Guid(c04b2676d921798438a002a44a54ad45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd34786228a9c32fb2db37f86c3313aaa') in 0.048983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.214893 seconds.
+  path: Assets/GameData/Nodes/StartOrFirstTest.asset
+  artifactKey: Guid(09ebbcb029bbb0046aa2b988479360c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Nodes/StartOrFirstTest.asset using Guid(09ebbcb029bbb0046aa2b988479360c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9244e9c88e96abc4ea767ba9049604d') in 0.0074788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.281 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.444 seconds
+Domain Reload Profiling: 2729ms
+	BeginReloadAssembly (363ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (773ms)
+		LoadAssemblies (556ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (383ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (342ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1064ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (685ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6664 unused Assets / (6.4 MB). Loaded Objects now: 7362.
+Memory consumption went from 152.8 MB to 146.4 MB.
+Total: 21.345700 ms (FindLiveObjects: 1.161200 ms CreateObjectMapping: 1.094700 ms MarkObjects: 13.409600 ms  DeleteObjects: 5.678300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 136.877001 seconds.
+  path: Assets/GameData/Choices/FirstChoice.asset
+  artifactKey: Guid(d7597063e80ecb549aeffc990e6f7d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Choices/FirstChoice.asset using Guid(d7597063e80ecb549aeffc990e6f7d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e51d1de12493cbeada0cd651e73ad34e') in 0.0643505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GameData/Choices/SecondChoice 2.asset
+  artifactKey: Guid(f4a1512ce6345da4db238af4add705ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Choices/SecondChoice 2.asset using Guid(f4a1512ce6345da4db238af4add705ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df0e395af902259692b441ba86f6f4b7') in 0.0065372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GameData/Choices/FirstChoice 3.asset
+  artifactKey: Guid(e8c6deec2cfff7b4ba827680b9f9ea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Choices/FirstChoice 3.asset using Guid(e8c6deec2cfff7b4ba827680b9f9ea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c08dc28ace1a53e95e7d1fcce33f94c') in 0.0062574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GameData/Choices/SecondChoice 1.asset
+  artifactKey: Guid(654464e8e6f8d714e909bb285d6fdd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameData/Choices/SecondChoice 1.asset using Guid(654464e8e6f8d714e909bb285d6fdd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dad9623fcce243048798e7bd5ba9f4f') in 0.001375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
