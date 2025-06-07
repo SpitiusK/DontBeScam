@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b5203f72b543664690cb797a9f33340, type: 3}
   m_Name: SecondImageSet
   m_EditorClassIdentifier: 
-  nameId: 
-  sprites: []
+  nameId: SecondImageSet
+  sprites:
+  - {fileID: 2393969487536388008, guid: 502c350cc10c04441adee5c966e16f8c, type: 3}
+  - {fileID: 6365990420529511673, guid: d8af8c9ae0ccc2d4ea25a3b250ef9c50, type: 3}
+  - {fileID: 1033757754038888155, guid: e1358047666fe37499863684e6a64217, type: 3}
+  - {fileID: -1453932341438777202, guid: dc852061397bd0e499db9bad50d98a0d, type: 3}
   nextNode: {fileID: 0}

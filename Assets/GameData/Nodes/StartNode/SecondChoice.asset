@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ae69e6217ba33a40b949a02eee0a41a, type: 3}
   m_Name: SecondChoice
   m_EditorClassIdentifier: 
-  choiceText: "\u0410 \u044D\u0442\u043E \u043F\u0440\u0430\u0432\u043E"
+  choiceText: SecondImageSet
   choiceIcon: {fileID: 1942674845213285491, guid: ece71a8a0b1f4e9438cf8c355f745051, type: 3}
-  nextNode: {fileID: 11400000, guid: 8306a6fade35e094f89268e62b172bbd, type: 2}
+  nextImageSet: {fileID: 11400000, guid: d7752091396f5584e962e5ea8e2ea0ff, type: 2}

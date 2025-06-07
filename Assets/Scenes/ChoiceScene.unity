@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 32809001}
   - component: {fileID: 32809000}
   - component: {fileID: 32809004}
+  - component: {fileID: 32809005}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -236,15 +237,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c94f222479605a4e9150a522b8619aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingImageSet: {fileID: 0}
+  startingImageSet: {fileID: 11400000, guid: 9e9fd5fec9415d644b4ac16f18b6e624, type: 2}
+--- !u!114 &32809005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32808999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff3f7319fe8e3f469eb50b5d36eaebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1259631723}
-  textBackgroundImage: {fileID: 1801853301}
   storyText: {fileID: 898734219}
-  choiceButtonFirst: {fileID: 93336365}
-  choiceButtonSecond: {fileID: 389918800}
-  storyTextBackground: {fileID: 803200145172514881, guid: f3db1aae532f680469175029b8ecd02f, type: 3}
-  choiceButtonBackground: {fileID: 4387596594474967492, guid: 363554d9e9ee4834da1f884f56d5bf6d, type: 3}
-  defaultChoiceIcon: {fileID: 5559847628684336293, guid: 10f9566c51ae1ab49a27b333067b03fc, type: 3}
+  choiceButtonFirst: {fileID: 389918800}
+  choiceButtonSecond: {fileID: 93336365}
 --- !u!224 &93336363 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7740924998695830408, guid: 6ace03e154260164e8e41048495c04d3, type: 3}
