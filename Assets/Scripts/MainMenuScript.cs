@@ -1,24 +1,38 @@
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenuScript : MonoBehaviour
 {
-    public Button PlayButton;
-    public Button ExitButton;
+    [SerializeField] private Button playButton;
+    [SerializeField] private Button exitButton;
 
-    void Start()
+    private void Start()
     {
-        PlayButton.onClick.AddListener(OnPlayButtonClicked);
-        ExitButton.onClick.AddListener(OnExitButtonClicked);
+        playButton.onClick.AddListener(OnPlayButtonClicked);
+        exitButton.onClick.AddListener(OnExitButtonClicked);
     }
 
-    void OnPlayButtonClicked()
+    private void OnPlayButtonClicked()
     {
-        SceneManager.LoadScene("GameScene");
+        AdventureGameManager manager = FindObjectOfType<AdventureGameManager>();
+        if (manager == null)
+        {
+            Debug.LogError("AdventureGameManager не найден!");
+            return;
+        }
+
+        if (manager.StartingImageSet == null)
+        {
+            Debug.LogError("StartingImageSet не назначен в AdventureGameManager!");
+            return;
+        }
+
+        manager.CurrentImageSet = manager.StartingImageSet;
+        SceneManager.LoadScene("MainActionScene");
     }
 
-    void OnExitButtonClicked()
+    private void OnExitButtonClicked()
     {
         Application.Quit();
     }
