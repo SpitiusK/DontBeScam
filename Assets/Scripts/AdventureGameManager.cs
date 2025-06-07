@@ -18,6 +18,7 @@ public class AdventureGameManager : MonoBehaviour
     private const string DefaultChoiceText = "None";
     public ImageSet CurrentImageSet { get; set; }
     public NodeData CurrentNode { get; set; }
+    public ImageSet StartingImageSet => startingImageSet; // Публичное свойство для доступа к startingImageSet
 
     private void Awake()
     {

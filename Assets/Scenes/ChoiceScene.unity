@@ -236,6 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c94f222479605a4e9150a522b8619aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingImageSet: {fileID: 0}
   backgroundImage: {fileID: 1259631723}
   textBackgroundImage: {fileID: 1801853301}
   storyText: {fileID: 898734219}
@@ -244,7 +245,6 @@ MonoBehaviour:
   storyTextBackground: {fileID: 803200145172514881, guid: f3db1aae532f680469175029b8ecd02f, type: 3}
   choiceButtonBackground: {fileID: 4387596594474967492, guid: 363554d9e9ee4834da1f884f56d5bf6d, type: 3}
   defaultChoiceIcon: {fileID: 5559847628684336293, guid: 10f9566c51ae1ab49a27b333067b03fc, type: 3}
-  startingNode: {fileID: 11400000, guid: 39a5dde6ab7d9544bac2210730d5ea6b, type: 2}
 --- !u!224 &93336363 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7740924998695830408, guid: 6ace03e154260164e8e41048495c04d3, type: 3}
