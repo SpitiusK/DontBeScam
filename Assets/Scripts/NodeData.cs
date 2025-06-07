@@ -18,17 +18,4 @@ public class NodeData : ScriptableObject
     public Sprite BackgroundImage { get => backgroundImage; set => backgroundImage = value; }
     public ChoiceData FirstChoice { get => firstChoice; set => firstChoice = value; }
     public ChoiceData SecondChoice { get => secondChoice; set => secondChoice = value; }
-    
-    public void SetChoice(ChoiceType type, ChoiceData choice)
-    {
-        switch (type)
-        {
-            case ChoiceType.First:
-                FirstChoice = choice;
-                break;
-            case ChoiceType.Second:
-                SecondChoice = choice;
-                break;
-        }
-    }
 }
