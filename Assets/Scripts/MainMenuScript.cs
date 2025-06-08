@@ -13,23 +13,16 @@ public class MainMenuScript : MonoBehaviour
         exitButton.onClick.AddListener(OnExitButtonClicked);
     }
 
-    private void OnPlayButtonClicked()
+    public void OnPlayButtonClicked()
     {
-        AdventureGameManager manager = FindObjectOfType<AdventureGameManager>();
-        if (manager == null)
+        if (AdventureGameManager.Instance == null)
         {
             Debug.LogError("AdventureGameManager не найден!");
             return;
         }
 
-        if (manager.StartingImageSet == null)
-        {
-            Debug.LogError("StartingImageSet не назначен в AdventureGameManager!");
-            return;
-        }
-
-        manager.CurrentImageSet = manager.StartingImageSet;
-        SceneManager.LoadScene("MainActionScene");
+        AdventureGameManager.Instance.CurrentImageSet = AdventureGameManager.Instance.StartingImageSet;
+        SceneManager.LoadSceneAsync(SceneNames.MainActionScene);
     }
 
     private void OnExitButtonClicked()

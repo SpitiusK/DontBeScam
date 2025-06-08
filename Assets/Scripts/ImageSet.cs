@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 using System.Collections.Generic;
-using System.IO;
+
 
 [CreateAssetMenu(fileName = "NewImageSet", menuName = "Game/ImageSet")]
 public class ImageSet : ScriptableObject
@@ -14,6 +14,11 @@ public class ImageSet : ScriptableObject
     public IReadOnlyList<Sprite> Sprites => sprites;
     public NodeData NextNode => nextNode;
 
+    /// <summary>
+    /// Возвращает true, если список спрайтов пуст или не инициализирован.
+    /// </summary>
+    public bool IsEmpty => sprites == null || sprites.Count == 0;
+
     // Метод для заполнения списка спрайтов из папки
     public void PopulateSpritesFromFolder(string folderPath)
     {
@@ -24,7 +29,7 @@ public class ImageSet : ScriptableObject
         }
 
         // Очистить текущий список
-        sprites.Clear();
+        sprites?.Clear();
 
         // Получить все пути к файлам в папке
         string[] assetPaths = AssetDatabase.FindAssets("t:Sprite", new[] { folderPath });
@@ -35,6 +40,7 @@ public class ImageSet : ScriptableObject
             Sprite sprite = AssetDatabase.LoadAssetAtPath<Sprite>(assetPath);
             if (sprite != null)
             {
+                sprites ??= new List<Sprite>(); // Инициализация, если null
                 sprites.Add(sprite);
             }
         }
