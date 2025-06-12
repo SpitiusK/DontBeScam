@@ -521,7 +521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7740924998695830408, guid: 6ace03e154260164e8e41048495c04d3, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 300
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 7740924998695830408, guid: 6ace03e154260164e8e41048495c04d3, type: 3}
       propertyPath: m_SizeDelta.y
@@ -768,14 +768,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.12941176, g: 0.78591716, b: 0.94509804, a: 1}
+  m_Color: {r: 0.16740832, g: 0.27965847, b: 0.6226415, a: 0.8784314}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 803200145172514881, guid: f3db1aae532f680469175029b8ecd02f, type: 3}
+  m_Sprite: {fileID: -384541685988206067, guid: 33c78e65418cd404d84c4d127de8acc8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1002,7 +1002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7740924998695830408, guid: 6ace03e154260164e8e41048495c04d3, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 300
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 7740924998695830408, guid: 6ace03e154260164e8e41048495c04d3, type: 3}
       propertyPath: m_SizeDelta.y

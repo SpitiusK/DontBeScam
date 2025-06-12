@@ -8,6 +8,5 @@ public class ChoiceData : ScriptableObject
     [SerializeField] private ImageSet nextImageSet;
 
     public string ChoiceText => choiceText;
-    public Sprite ChoiceIcon => choiceIcon;
     public ImageSet NextImageSet => nextImageSet;
 }

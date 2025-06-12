@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f3db1aae532f680469175029b8ecd02f
+guid: 51cf76f2456443642abd0347d0db77ff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 803200145172514881
-    second: StoryTextBackGround_0
+      213: 347216068626068473
+    second: textBackgroundImage_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,12 +113,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StoryTextBackGround_0
+      name: textBackgroundImage_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 300
+        width: 500
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 148cc88c64a852b00800000000000000
-      internalID: 803200145172514881
+      spriteID: 9f3b3cebc2f81d400800000000000000
+      internalID: 347216068626068473
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      StoryTextBackGround_0: 803200145172514881
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
