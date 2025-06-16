@@ -4,9 +4,8 @@ using UnityEngine;
 public class ChoiceData : ScriptableObject
 {
     [SerializeField] private string choiceText;
-    [SerializeField] private Sprite choiceIcon;
     [SerializeField] private ImageSet nextImageSet;
-
+    [SerializeField] private bool isScum;
     public string ChoiceText => choiceText;
     public ImageSet NextImageSet => nextImageSet;
 }

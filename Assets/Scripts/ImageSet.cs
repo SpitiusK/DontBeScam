@@ -6,11 +6,10 @@ using System.Collections.Generic;
 [CreateAssetMenu(fileName = "NewImageSet", menuName = "Game/ImageSet")]
 public class ImageSet : ScriptableObject
 {
-    [SerializeField] private string nameId;
     [SerializeField] private List<Sprite> sprites;
     [SerializeField] private NodeData nextNode;
 
-    public string NameId => nameId;
+    [SerializeField] private bool IsEnd;
     public IReadOnlyList<Sprite> Sprites => sprites;
     public NodeData NextNode => nextNode;
 

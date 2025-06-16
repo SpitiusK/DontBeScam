@@ -53,7 +53,7 @@ public class MainActionScript : MonoBehaviour
                 AdventureGameManager.Instance.CurrentNode = _currentImageSet.NextNode;
                 _asyncLoad = SceneManager.LoadSceneAsync(SceneNames.ChoiceScene);
                 _asyncLoad.allowSceneActivation = false; // Отложите активацию сцены
-                StartCoroutine(ActivateSceneAfterDelay(0.1f)); // Запустите корутину для активации через задержку
+                StartCoroutine(ActivateSceneAfterDelay(0.2f)); // Запустите корутину для активации через задержку
             }
             else
             {
