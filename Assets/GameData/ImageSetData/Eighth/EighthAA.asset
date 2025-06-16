@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5203f72b543664690cb797a9f33340, type: 3}
+  m_Name: EighthAA
+  m_EditorClassIdentifier: 
+  nameId: 
+  sprites:
+  - {fileID: 9203148563877796340, guid: b020d36f19604714f9d78e576d4ebb8f, type: 3}
+  - {fileID: -5279000778436363974, guid: 9fc0d816612f1c147bc641fd22324e7c, type: 3}
+  - {fileID: 8307222788524087459, guid: fa08d6f0c58576b418ad38c34a75f2d0, type: 3}
+  - {fileID: -3951791104398154060, guid: 094af9e7a6f206442bf64ee508981a37, type: 3}
+  - {fileID: 6048007417741851446, guid: bb19b7a9698ef9542b3b7545c756b83d, type: 3}
+  - {fileID: -811321157251304752, guid: 4cd8910bbda2d8545b0d240248b0b07b, type: 3}
+  nextNode: {fileID: 11400000, guid: 41315595f3ee3204b84a08c57df37030, type: 2}

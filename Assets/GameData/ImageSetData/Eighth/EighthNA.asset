@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5203f72b543664690cb797a9f33340, type: 3}
+  m_Name: EighthNA
+  m_EditorClassIdentifier: 
+  nameId: 
+  sprites:
+  - {fileID: 1715675148665220920, guid: 364a4ebcc44ce4b43921c58bfe7f4087, type: 3}
+  - {fileID: -5279000778436363974, guid: 0427c3fc3dd387b4d8a2f9c9b340cbf7, type: 3}
+  - {fileID: 8307222788524087459, guid: 0278336c2a8ad93429f96e58f917d018, type: 3}
+  - {fileID: -3951791104398154060, guid: 2f048dc4aee574c4da544400ca07bb7f, type: 3}
+  - {fileID: 6048007417741851446, guid: faa4eceacd9a1ae469022b3018a68d30, type: 3}
+  - {fileID: -811321157251304752, guid: 768569ac83f190d47b35c03cdf3054e2, type: 3}
+  nextNode: {fileID: 11400000, guid: 41315595f3ee3204b84a08c57df37030, type: 2}

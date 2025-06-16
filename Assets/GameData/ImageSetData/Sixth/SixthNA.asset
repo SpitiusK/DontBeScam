@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5203f72b543664690cb797a9f33340, type: 3}
+  m_Name: SixthNA
+  m_EditorClassIdentifier: 
+  nameId: 
+  sprites:
+  - {fileID: 2382953326974805291, guid: d745d309d9067034481651dc5914e848, type: 3}
+  - {fileID: -1050240048071884550, guid: 0bdf21beda8b24746bbbf9929aaf7b00, type: 3}
+  - {fileID: -7088672511408215459, guid: f46bea48067b3df44a848db22bd4bdef, type: 3}
+  - {fileID: 8852886709036472236, guid: e02b4f4bea674654b8df0b6c8c58b5f4, type: 3}
+  - {fileID: -2871968800820852694, guid: fb2165e2575fcd3418359afdca10569a, type: 3}
+  - {fileID: -8792674211988582818, guid: 09026914b340cd94e92fba7e7b52feec, type: 3}
+  nextNode: {fileID: 11400000, guid: eaf7946a98d4bb24893d5a1faffedf40, type: 2}

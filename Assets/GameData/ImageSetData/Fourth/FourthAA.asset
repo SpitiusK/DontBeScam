@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5203f72b543664690cb797a9f33340, type: 3}
+  m_Name: FourthAA
+  m_EditorClassIdentifier: 
+  nameId: 
+  sprites:
+  - {fileID: 8614125223767977138, guid: 480d38a4bd19059499a11ea4a32f3c3a, type: 3}
+  - {fileID: 8170345159057914999, guid: 9ffb2e239dbe3154985f065886742628, type: 3}
+  - {fileID: 2046878357866062070, guid: 0a358c7ac20986a4292cd1c38f8f2c66, type: 3}
+  - {fileID: 1974046691463794072, guid: ee99bd1657becc545b89b74a31998a07, type: 3}
+  - {fileID: -7013446889221245255, guid: 2f73f0b576080d94797b9ebad0643c77, type: 3}
+  - {fileID: 3803881203737247029, guid: 1a8e183a50b6f06459162cf6e7db29a8, type: 3}
+  nextNode: {fileID: 11400000, guid: 467dc1fd953c0b5478ead96dd5ba09b5, type: 2}

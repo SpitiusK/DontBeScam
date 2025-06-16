@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ChoiceButtonBackgroundImageNew_0: 5567137377406039946
+      ChoiceButtonBackgroundImageNew_1: 7089146739396781320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5203f72b543664690cb797a9f33340, type: 3}
+  m_Name: FifthNA
+  m_EditorClassIdentifier: 
+  nameId: 
+  sprites:
+  - {fileID: 7572194167304432249, guid: 8b9709d2267bf57459169fbcd048c9c8, type: 3}
+  - {fileID: 498909651178719608, guid: ddb5604318ab5e04f8e5bf35f8d5b609, type: 3}
+  - {fileID: 395734976403761993, guid: 8c83d78169971fb48b9168be027dcd45, type: 3}
+  - {fileID: 8172454845547558544, guid: 1cc91bfa53243794bbf2eb4f3283a09b, type: 3}
+  - {fileID: -1216349936684586549, guid: b83427da3c7f4144cba782cc6b9d309a, type: 3}
+  - {fileID: -1488217217324317727, guid: 46931279a0700df4e806ced3147eceb0, type: 3}
+  nextNode: {fileID: 11400000, guid: ea82499e4628f7f4d9101bb9a63dbfd9, type: 2}

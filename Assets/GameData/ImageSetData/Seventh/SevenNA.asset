@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5203f72b543664690cb797a9f33340, type: 3}
+  m_Name: SevenNA
+  m_EditorClassIdentifier: 
+  nameId: 
+  sprites:
+  - {fileID: -4913896819398096160, guid: bd8b053a1a5e86a4f9c57e6850ab36cf, type: 3}
+  - {fileID: -2927990079721442051, guid: bef4843dd5069de4ba53cc06c2505cb0, type: 3}
+  - {fileID: 1846576877718048182, guid: de7ed7bfe898fa941a4c1658ca245246, type: 3}
+  - {fileID: -4476678025324802172, guid: b61fda1e81bafb5418a51030753cece5, type: 3}
+  - {fileID: 590642946181499765, guid: 79770cf730390224a821da31d84f1798, type: 3}
+  - {fileID: 721489095510181378, guid: 636331f17810ca641accae41dc058dc1, type: 3}
+  nextNode: {fileID: 11400000, guid: ddbd175ed15542943a6a6fdea045a5ca, type: 2}

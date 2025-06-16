@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5203f72b543664690cb797a9f33340, type: 3}
+  m_Name: NinthAA
+  m_EditorClassIdentifier: 
+  nameId: 
+  sprites:
+  - {fileID: -3049514495224034921, guid: 7513236a499270a4c8989550b3eea5cb, type: 3}
+  - {fileID: -5070208443493079854, guid: 7d82eef4eb82e6f48a2bad6aab92dd48, type: 3}
+  - {fileID: -2384332627354052708, guid: c0b465468d5d0eb4eb77adb9852c0807, type: 3}
+  - {fileID: 5214412288878187625, guid: 89b5093af50abd34f8886c31ea39be62, type: 3}
+  - {fileID: -95490723985026979, guid: 17e58f3834985d045a0157955a55dbc6, type: 3}
+  - {fileID: -8327439353929042256, guid: 23518a91dc083a044938f151283d2f54, type: 3}
+  nextNode: {fileID: 11400000, guid: 8e4a47a9066cc7544b94c804c988f02c, type: 2}

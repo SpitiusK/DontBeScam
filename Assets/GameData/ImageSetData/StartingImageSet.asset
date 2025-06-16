@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameId: StartingImageSet
   sprites:
-  - {fileID: 2393969487536388008, guid: 502c350cc10c04441adee5c966e16f8c, type: 3}
-  - {fileID: 6365990420529511673, guid: d8af8c9ae0ccc2d4ea25a3b250ef9c50, type: 3}
-  - {fileID: 1033757754038888155, guid: e1358047666fe37499863684e6a64217, type: 3}
-  - {fileID: -1453932341438777202, guid: dc852061397bd0e499db9bad50d98a0d, type: 3}
+  - {fileID: 3132575188318169570, guid: 5713039d0046d144784d4b11d4b65a0b, type: 3}
+  - {fileID: -61202698615615154, guid: 7df3e0b71817ccd418210fdccf3b7504, type: 3}
+  - {fileID: 2189584315246766406, guid: f5339a9207140444fa8c24fc2f5df51d, type: 3}
+  - {fileID: -724354349267869621, guid: e6d629aecc000dd43849967126267feb, type: 3}
+  - {fileID: 7427566125611826388, guid: dc80dfc58f64a9447b8b36e1a65d6cfc, type: 3}
   nextNode: {fileID: 11400000, guid: 39a5dde6ab7d9544bac2210730d5ea6b, type: 2}
