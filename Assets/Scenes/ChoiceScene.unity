@@ -240,6 +240,7 @@ MonoBehaviour:
   storyText: {fileID: 898734219}
   choiceButtonFirst: {fileID: 683184109}
   choiceButtonSecond: {fileID: 93336365}
+  installedBackground: {fileID: 2447674631516604382, guid: 32f096d34fa81fa48a44eeab94a8d99d, type: 3}
 --- !u!224 &93336363 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7740924998695830408, guid: 6ace03e154260164e8e41048495c04d3, type: 3}

@@ -10,6 +10,7 @@ public class ChoiceScript : MonoBehaviour
     [SerializeField] private TMP_Text storyText;
     [SerializeField] private Button choiceButtonFirst;
     [SerializeField] private Button choiceButtonSecond;
+    [SerializeField] private Sprite installedBackground;
 
     private void Start()
     {
@@ -29,7 +30,7 @@ public class ChoiceScript : MonoBehaviour
             return;
         }
 
-        backgroundImage.sprite = manager.CurrentImageSet.Sprites[manager.CurrentImageSet.Sprites.Count - 1];
+        backgroundImage.sprite = installedBackground;
         storyText.text = currentNode.StoryText;
 
         SetupChoiceButton(choiceButtonFirst, currentNode.FirstChoice);
