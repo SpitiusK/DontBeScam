@@ -1,15 +1,17 @@
-using UnityEditor;
 using UnityEngine;
 using System.Collections.Generic;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 [CreateAssetMenu(fileName = "NewImageSet", menuName = "Game/ImageSet")]
 public class ImageSet : ScriptableObject
 {
     [SerializeField] private List<Sprite> sprites;
     [SerializeField] private NodeData nextNode;
-
     [SerializeField] private bool isEnd;
+
     public bool IsEnd => isEnd;
     public IReadOnlyList<Sprite> Sprites => sprites;
     public NodeData NextNode => nextNode;
@@ -19,6 +21,7 @@ public class ImageSet : ScriptableObject
     /// </summary>
     public bool IsEmpty => sprites == null || sprites.Count == 0;
 
+#if UNITY_EDITOR
     // Метод для заполнения списка спрайтов из папки
     public void PopulateSpritesFromFolder(string folderPath)
     {
@@ -49,4 +52,5 @@ public class ImageSet : ScriptableObject
         EditorUtility.SetDirty(this);
         AssetDatabase.SaveAssets();
     }
+#endif
 }
