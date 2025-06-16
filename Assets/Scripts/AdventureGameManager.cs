@@ -7,6 +7,7 @@ public class AdventureGameManager : MonoBehaviour
     [SerializeField] private ImageSet startingImageSet;
     public ImageSet CurrentImageSet { get; set; }
     public NodeData CurrentNode { get; set; }
+    public int DeceptionCount { get; private set; } = 0;
 
     private void Awake()
     {
@@ -17,6 +18,11 @@ public class AdventureGameManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
+    }
+
+    public void IncrementDeceptionCount()
+    {
+        DeceptionCount++;
     }
 
     public ImageSet StartingImageSet => startingImageSet;

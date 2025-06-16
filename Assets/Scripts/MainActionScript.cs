@@ -48,12 +48,16 @@ public class MainActionScript : MonoBehaviour
         }
         else
         {
-            if (_currentImageSet.NextNode != null)
+            if (_currentImageSet.IsEnd)
+            {
+                SceneManager.LoadSceneAsync(SceneNames.EndScene);
+            }
+            else if (_currentImageSet.NextNode != null)
             {
                 AdventureGameManager.Instance.CurrentNode = _currentImageSet.NextNode;
                 _asyncLoad = SceneManager.LoadSceneAsync(SceneNames.ChoiceScene);
-                _asyncLoad.allowSceneActivation = false; // Отложите активацию сцены
-                StartCoroutine(ActivateSceneAfterDelay(0.2f)); // Запустите корутину для активации через задержку
+                _asyncLoad.allowSceneActivation = false;
+                StartCoroutine(ActivateSceneAfterDelay(0.2f));
             }
             else
             {
@@ -64,7 +68,7 @@ public class MainActionScript : MonoBehaviour
     
     private IEnumerator ActivateSceneAfterDelay(float delay)
     {
-        yield return new WaitForSeconds(delay); // Ждём 0.5 секунды (можно настроить)
-        _asyncLoad.allowSceneActivation = true; // Активируем сцену
+        yield return new WaitForSeconds(delay);
+        _asyncLoad.allowSceneActivation = true;
     }
 }

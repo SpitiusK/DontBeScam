@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b5203f72b543664690cb797a9f33340, type: 3}
   m_Name: TenthAA
   m_EditorClassIdentifier: 
-  nameId: 
   sprites:
   - {fileID: 8794423788258112488, guid: ba84e5caa85caab45b209172dd7ecdfb, type: 3}
   nextNode: {fileID: 0}
+  isEnd: 1

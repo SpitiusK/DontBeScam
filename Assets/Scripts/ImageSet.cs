@@ -9,7 +9,8 @@ public class ImageSet : ScriptableObject
     [SerializeField] private List<Sprite> sprites;
     [SerializeField] private NodeData nextNode;
 
-    [SerializeField] private bool IsEnd;
+    [SerializeField] private bool isEnd;
+    public bool IsEnd => isEnd;
     public IReadOnlyList<Sprite> Sprites => sprites;
     public NodeData NextNode => nextNode;
 

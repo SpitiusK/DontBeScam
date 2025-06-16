@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b5203f72b543664690cb797a9f33340, type: 3}
   m_Name: TenthNA
   m_EditorClassIdentifier: 
-  nameId: 
   sprites:
   - {fileID: -6545496106622794397, guid: ae0df8e9ccb85544688bdaa033f7002a, type: 3}
   nextNode: {fileID: 0}
+  isEnd: 1
