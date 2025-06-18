@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae69e6217ba33a40b949a02eee0a41a, type: 3}
+  m_Name: StartChoice
+  m_EditorClassIdentifier: 
+  choiceText: "\u041D\u0430\u0447\u0430\u0442\u044C \u0438\u0433\u0440\u0443"
+  nextImageSet: {fileID: 11400000, guid: 9e9fd5fec9415d644b4ac16f18b6e624, type: 2}
+  isScum: 0

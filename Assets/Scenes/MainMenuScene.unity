@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c94f222479605a4e9150a522b8619aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingImageSet: {fileID: 11400000, guid: 9e9fd5fec9415d644b4ac16f18b6e624, type: 2}
+  startingImageSet: {fileID: 11400000, guid: ca8aed5e0a2de1d4490b1d9512d05902, type: 2}
 --- !u!4 &401698573
 Transform:
   m_ObjectHideFlags: 0
