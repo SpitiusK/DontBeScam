@@ -19,6 +19,5 @@ MonoBehaviour:
   - {fileID: -4178046375966092550, guid: a6cb3f5efd2cd1e479e00be93ce60bbd, type: 3}
   - {fileID: 4130640169021434097, guid: eaff7ed6947828845b2b1045c3a91b5f, type: 3}
   - {fileID: 3465286685962602723, guid: 9d22777115c7da64f9330ab81ab0468e, type: 3}
-  - {fileID: -7313347125236997880, guid: dcd84622a1c23274db69998f1847d672, type: 3}
   nextNode: {fileID: 11400000, guid: 14ac22854468f1540b7febc1e114b67e, type: 2}
   isEnd: 0
